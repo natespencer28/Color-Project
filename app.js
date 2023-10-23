@@ -1,13 +1,12 @@
-const colors = ["Red", "Blue", "Pink", "Yellow", "Green", "Black", "Orange", "Purple"];
-let currentIndex = 0; 
+const colors = ["red", "blue", "green", "yellow", "purple"];
+let currentIndex = 0;
 
-const colorBox = document.getElementsByClassName("color-box");
-const colorChange = document.getElementsByClassName("color-change");
+const colorBox = document.getElementById("color-box");
+const changeColorButton = document.getElementById("color-change");
 
-colorChange.addEventListener("click", changeColor);
+changeColorButton.addEventListener("click", changeColor);
 
 function changeColor() {
-    currentIndex = (currentIndex + 1) % colors.length; 
+    currentIndex = (currentIndex + 1) % colors.length;
     colorBox.style.backgroundColor = colors[currentIndex];
-    
 }
