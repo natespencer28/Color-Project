@@ -1,4 +1,4 @@
-const colors = ["red", "blue", "green", "yellow", "purple", "pink",];
+const colors = ["red", "blue", "green", "yellow", "purple", "pink", "orange", "black", ];
 let currentIndex = 0;
 
 const colorBox = document.getElementById("color-box");
