@@ -1,3 +1,8 @@
+body{
+    background-color: rgb(208, 245, 245);
+    margin: 200px;
+}
+
 .color-container{
     display: flex;
     justify-content: center;
