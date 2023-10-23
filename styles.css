@@ -10,3 +10,9 @@
     height: 200px;
     background-color: red; 
 }
+
+.color-change{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
